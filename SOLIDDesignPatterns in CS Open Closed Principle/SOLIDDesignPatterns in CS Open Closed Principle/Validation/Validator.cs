@@ -8,10 +8,6 @@ namespace SOLIDDesignPatterns_in_CS_Open_Closed_Principle.Validation
 {
     public abstract class Validator
     {
-        public abstract bool Validate(Invoice invoice)
-        {
-
-            return true;
-        }
+        public abstract bool Validate(Invoice invoice);
     }
 }

@@ -17,7 +17,7 @@ namespace SOLIDDesignPatterns_in_CS_Open_Closed_Principle
         }
         public bool Validate(Invoice invoice)
         {
-            return _validators.All(v => v.Validate(invoice));
+               return _validators.All( v=> v.Validate(invoice));
         }
     }
 }

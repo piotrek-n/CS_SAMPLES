@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SOLIDDesignPatterns_in_CS_Open_Closed_Principle
 {
-    public class InvoicePrinter
-    {
-        public void Print(Invoice invoice)
-        {
-
-        }
-    }
+	 public class InvoicePrinter
+	 {
+		public void Print(Invoice invoice)
+		 {
+			 
+		 } 
+	 }
 }

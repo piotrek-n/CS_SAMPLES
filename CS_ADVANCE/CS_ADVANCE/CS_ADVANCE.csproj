@@ -76,6 +76,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JamieKing_Foreach\Foreach.cs" />
+    <Compile Include="JamieKing_IEnumerableVsIEnumerator\EnumerableVsIEnumerator.cs" />
+    <Compile Include="JamieKing_IEnumeratorExample\IEnumeratorExample.cs" />
+    <Compile Include="JamieKing_IEnumerator\IEnumerator.cs" />
+    <Compile Include="JamieKing_List\List.cs" />
+    <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
     <Compile Include="Mosh_Events\VideoEncoder.cs" />
@@ -632,6 +638,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

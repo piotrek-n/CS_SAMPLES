@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="IronPython, Version=2.7.0.40, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
       <HintPath>..\packages\IronPython.2.7.2\lib\Net40\IronPython.dll</HintPath>
       <Private>True</Private>
@@ -66,6 +74,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -76,6 +85,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CezaryWalenciuk\IEnumerableAndIEnumerator.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\01_Intro\01_Intro.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\02_ExpressionTrees\02_ExpressionTrees.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\03_PickingApartExpressionTrees _ConstExpression\03_PickingApartExpressionTrees _ConstExpression.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\04_Expression\04_Expression.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\05_CS_PickingApartExpressionTrees_ParameterExpression\05_CS_PickingApartExpressionTrees_ParameterExpression.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\06_CS_PickingApartExpressionTrees_BinaryExpression\06_CS_PickingApartExpressionTrees_BinaryExpression.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\07_CS_PickingApartExpressionTrees_LambdaExpression\07_CS_PickingApartExpressionTrees_LambdaExpression.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\08_CS_IEnumerableVsIQueryable\08_CS_IEnumerableVsIQueryable.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\09_CS_WhyExpressionTreesAreCool_EntityFramework\09_CS_WhyExpressionTreesAreCool_EntityFramework.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\10_CS_BuildingQueriesAtRuntime\10_CS_BuildingQueriesAtRuntime.cs" />
+    <Compile Include="JamieKing_ExpressionTrees\11_CS_GenericVsNonGenericExpression\11_CS_GenericVsNonGenericExpression.cs" />
+    <Compile Include="JamieKing_ForeachCast\ForeachCast.cs" />
     <Compile Include="JamieKing_Foreach\Foreach.cs" />
     <Compile Include="JamieKing_IEnumerableVsIEnumerator\EnumerableVsIEnumerator.cs" />
     <Compile Include="JamieKing_IEnumeratorExample\IEnumeratorExample.cs" />
@@ -638,7 +660,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="JonhKerry\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

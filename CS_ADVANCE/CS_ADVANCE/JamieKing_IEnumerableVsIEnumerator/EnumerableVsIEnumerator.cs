@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CS_ADVANCE.JamieKing_IEnumerableVsIEnumerator
 {
-    internal class MyList<T>
+    internal class MyList<T>: IEnumerable<T>
     {
         private T[] items = new T[5];
 
@@ -28,52 +28,15 @@ namespace CS_ADVANCE.JamieKing_IEnumerableVsIEnumerator
         /// <returns></returns>
         public IEnumerator<T> GetEnumerator()
         {
-            //for (int i = 0; i < count; i++)
-            //{
-            //yield return items[i]; //Bez yield pobierze całą kolekcję
-            //}
-
-            //Pętla for została zastąpiona, tak jak poniżej
-            return new MyEnumerator(this);
+            for (int i = 0; i < count; i++)
+            {
+                yield return items[i]; //Bez yield pobierze całą kolekcję
+            }
         }
-        //Rozwiązanie z klasą implem. IEnumerator jest nierekomendowane. 
-        class MyEnumerator : IEnumerator<T>
+
+        IEnumerator IEnumerable.GetEnumerator()
         {
-            int index = -1;
-            MyList<T> _theList;
-
-            public MyEnumerator(MyList<T> theList)
-            {
-                this._theList = theList;
-            }
-            public bool MoveNext()
-            {
-                return ++index < _theList.count;
-            }
-            public T Current
-            {
-                get
-                {
-                    if (index < 0 || _theList.count <= index)
-                        return default(T);
-                    return _theList.items[index];
-                }
-            }
-
-            public void Dispose()
-            {
-                Console.WriteLine("I am disposing of myself");
-            }
-
-            object IEnumerator.Current
-            {
-                get { return Current; }
-            }
-
-            public void Reset()
-            {
-                index = -1;
-            }
+            return GetEnumerator();
         }
     }
 
@@ -84,56 +47,14 @@ namespace CS_ADVANCE.JamieKing_IEnumerableVsIEnumerator
             Console.WriteLine("List Caller");
 
             //Generic
-            MyList<int> myPartyAges2 = new MyList<int>();
-            myPartyAges2.Add(25);
-            myPartyAges2.Add(34);
-            myPartyAges2.Add(32);
-
-            IEnumerator rator = myPartyAges2.GetEnumerator();
-            //Console.WriteLine(rator.Current);//Wartość 0, wartość z dupy!!!!
-            rator.MoveNext();
-            rator.MoveNext();
-            rator.MoveNext();
-            rator.MoveNext();
+            //MyList<int> myPartyAges2 = new MyList<int>();
+            //myPartyAges2.Add(25);
+            //myPartyAges2.Add(34);
+            //myPartyAges2.Add(32);
 
 
-            //NonGeneric
-            ArrayList myPartyAges1 = new ArrayList();
-            myPartyAges1.Add(25);
-            myPartyAges1.Add(34);
-            myPartyAges1.Add(32);
-
-            IEnumerator rator1 = myPartyAges1.GetEnumerator();
-            //Console.WriteLine(rator.Current);//Error!!! Jesteś poza
-            rator1.MoveNext();
-            rator1.MoveNext();
-            rator1.MoveNext();
-            rator1.MoveNext();
-            //Console.WriteLine(rator.Current);//Error!!! Jesteś poza
-
-
-            //Generic
-            MyList<int> myPartyAges3 = new MyList<int>();
-            myPartyAges3.Add(25);
-            myPartyAges3.Add(34);
-            myPartyAges3.Add(32);
-            foreach (var i in myPartyAges3)
-            {
-                Console.WriteLine(i);
-            }
-
-            //IEnumerator<int> rator2 = myPartyAges3.GetEnumerator();
-            //try
-            //{
-            //    while (rator2.MoveNext())
-            //    {
-            //        Console.WriteLine(rator.Current);
-            //    }
-            //}
-            //finally
-            //{
-            //    //rator.Dispose();
-            //}
+            //Zmiana polegająca na usuniecie metod Add, automatyczny podstawienie spowoduje zgłoszenie błedu braku IEnumerable
+            MyList<int> myPartyAges2 = new MyList<int>() { 25, 34, 32 };
         }
     }
 }

@@ -26,7 +26,10 @@ namespace CS_ADVANCE
             //CS_ADVANCE.DynamicKeywordAndLateBinding.DynamicKeywordAndLateBinding.DynamicKeywordAndLateBindingCaller();
             //CS_ADVANCE.TUTS_TaskParallelLibrary.TaskParallelLibrary.TaskParallelLibraryCaller();
             //CS_ADVANCE.TUTS_AsyncAndAwait.AsyncAndAwait.AsyncAndAwaitCaller();
-            CS_ADVANCE.JamieKing_IEnumerableVsIEnumerator.List.ListCaller();
+            //CS_ADVANCE.JamieKing_IEnumerableVsIEnumerator.List.ListCaller();
+
+            //CS_ADVANCE.Jamie_King_ExpressionTrees._01_Intro._01_Intro._01_IntroCaller();
+            CS_ADVANCE.JamieKing_ExpressionTrees._10_CS_BuildingQueriesAtRuntime._10_CS_BuildingQueriesAtRuntime.Caller();
 
             Console.ReadKey();
         }

@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -103,6 +104,8 @@
     <Compile Include="JamieKing_IEnumeratorExample\IEnumeratorExample.cs" />
     <Compile Include="JamieKing_IEnumerator\IEnumerator.cs" />
     <Compile Include="JamieKing_List\List.cs" />
+    <Compile Include="JamieKing_Threading\01_HelloThreading\HelloThreading.cs" />
+    <Compile Include="JamieKing_Threading\02_MultipleThreads\MultipleThreads.cs" />
     <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
@@ -661,6 +664,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
+    <Folder Include="JamieKing_Threading\03_\" />
+    <Folder Include="JamieKing_Threading\04_\" />
+    <Folder Include="JamieKing_Threading\05_\" />
+    <Folder Include="JamieKing_Threading\06_\" />
+    <Folder Include="JamieKing_Threading\07_\" />
+    <Folder Include="JamieKing_Threading\08_\" />
+    <Folder Include="JamieKing_Threading\09_\" />
+    <Folder Include="JamieKing_Threading\10_\" />
     <Folder Include="JonhKerry\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

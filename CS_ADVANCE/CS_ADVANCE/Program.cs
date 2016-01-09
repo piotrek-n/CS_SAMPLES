@@ -33,8 +33,9 @@ namespace CS_ADVANCE
 
             //THREADING 
             //CS_ADVANCE.JamieKing_Threading._01_HelloThreading.HelloThreading.Caller();
-            CS_ADVANCE.JamieKing_Threading._02_MultipleThreads.MultipleThreads.Caller();
-
+            //CS_ADVANCE.JamieKing_Threading._02_MultipleThreads.MultipleThreads.Caller();
+            //CS_ADVANCE.JamieKing_Threading._05_BasicThreadSynchronization.BasicThreadSynchronization.Caller();
+            CS_ADVANCE.JamieKing_Threading._07_DesugarizingLockToMonitorMethodCalls._07_DesugarizingLockToMonitorMethodCalls.Caller();
             Console.ReadKey();
         }
     }

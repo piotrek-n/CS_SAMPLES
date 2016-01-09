@@ -110,6 +110,7 @@
     <Compile Include="JamieKing_Threading\04_ThreadSynchronizationIssue\ThreadSynchronizationIssue.cs" />
     <Compile Include="JamieKing_Threading\05_BasicThreadSynchronization\BasicThreadSynchronization.cs" />
     <Compile Include="JamieKing_Threading\06_AnotherThreadSynchronizationExample\AnotherThreadSynchronizationExample.cs" />
+    <Compile Include="JamieKing_Threading\07_DesugarizingLockToMonitorMethodCalls\07_DesugarizingLockToMonitorMethodCalls.cs" />
     <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
@@ -669,7 +670,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
-    <Folder Include="JamieKing_Threading\07_\" />
     <Folder Include="JamieKing_Threading\08_\" />
     <Folder Include="JamieKing_Threading\09_\" />
     <Folder Include="JamieKing_Threading\10_\" />

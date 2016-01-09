@@ -106,6 +106,10 @@
     <Compile Include="JamieKing_List\List.cs" />
     <Compile Include="JamieKing_Threading\01_HelloThreading\HelloThreading.cs" />
     <Compile Include="JamieKing_Threading\02_MultipleThreads\MultipleThreads.cs" />
+    <Compile Include="JamieKing_Threading\03_ForegroundThreadsAndThreadIDs\ForegroundThreadsAndThreadIDs.cs" />
+    <Compile Include="JamieKing_Threading\04_ThreadSynchronizationIssue\ThreadSynchronizationIssue.cs" />
+    <Compile Include="JamieKing_Threading\05_BasicThreadSynchronization\BasicThreadSynchronization.cs" />
+    <Compile Include="JamieKing_Threading\06_AnotherThreadSynchronizationExample\AnotherThreadSynchronizationExample.cs" />
     <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
@@ -665,10 +669,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
-    <Folder Include="JamieKing_Threading\03_\" />
-    <Folder Include="JamieKing_Threading\04_\" />
-    <Folder Include="JamieKing_Threading\05_\" />
-    <Folder Include="JamieKing_Threading\06_\" />
     <Folder Include="JamieKing_Threading\07_\" />
     <Folder Include="JamieKing_Threading\08_\" />
     <Folder Include="JamieKing_Threading\09_\" />

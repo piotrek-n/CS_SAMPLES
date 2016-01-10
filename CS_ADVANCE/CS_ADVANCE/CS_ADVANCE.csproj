@@ -111,6 +111,19 @@
     <Compile Include="JamieKing_Threading\05_BasicThreadSynchronization\BasicThreadSynchronization.cs" />
     <Compile Include="JamieKing_Threading\06_AnotherThreadSynchronizationExample\AnotherThreadSynchronizationExample.cs" />
     <Compile Include="JamieKing_Threading\07_DesugarizingLockToMonitorMethodCalls\07_DesugarizingLockToMonitorMethodCalls.cs" />
+    <Compile Include="JamieKing_Threading\08_DivideAndConquerExamplePart1\DivideAndConquerExamplePart1.cs" />
+    <Compile Include="JamieKing_Threading\09_DivideAndConquerExamplePart2\DivideAndConquerExamplePart2.cs" />
+    <Compile Include="JamieKing_Threading\10_DivideAndConquerExamplePart3\DivideAndConquerExamplePart3.cs" />
+    <Compile Include="JamieKing_Threading\11_ProducerConsumerThreadIntroduction\ProducerConsumerThreadIntroduction.cs" />
+    <Compile Include="JamieKing_Threading\12_ProducerConsumerThreadImplementationPart1\ProducerConsumerThreadImplementationPart1.cs" />
+    <Compile Include="JamieKing_Threading\13_ProducerConsumerThreadImplementationPart2\ProducerConsumerThreadImplementationPart2.cs" />
+    <Compile Include="JamieKing_Threading\14_ProducerConsumerThreadSynchronizationIssues\ProducerConsumerThreadSynchronizationIssues.cs" />
+    <Compile Include="JamieKing_Threading\15_ProducerConsumerThreadRaceConditions\ProducerConsumerThreadRaceConditions.cs" />
+    <Compile Include="JamieKing_Threading\16_ProducerConsumerThreadLockToSolveRaceCondition\ProducerConsumerThreadLockToSolveRaceCondition.cs" />
+    <Compile Include="JamieKing_Threading\17_LockingDoesntNecessarilyLockTheObjectItself\LockingDoesntNecessarilyLockTheObjectItself.cs" />
+    <Compile Include="JamieKing_Threading\17_LockingDoesntNecessarilyLockTheObjectItself\LockingDoesntNecessarilyLockTheObjectItself2.cs" />
+    <Compile Include="JamieKing_Threading\18_WhatLockReallyMeans\WhatLockReallyMeans.cs" />
+    <Compile Include="JamieKing_Threading\19_SynchronizedContainers\SynchronizedContainers.cs" />
     <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
@@ -670,10 +683,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
-    <Folder Include="JamieKing_Threading\08_\" />
-    <Folder Include="JamieKing_Threading\09_\" />
-    <Folder Include="JamieKing_Threading\10_\" />
+    <Folder Include="JamieKing_Threading\20_\" />
+    <Folder Include="JamieKing_Threading\21_\" />
+    <Folder Include="JamieKing_Threading\22_\" />
     <Folder Include="JonhKerry\" />
+    <Folder Include="KlausSchmaranz_AspectsOfTheTPL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

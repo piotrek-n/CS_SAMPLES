@@ -35,7 +35,10 @@ namespace CS_ADVANCE
             //CS_ADVANCE.JamieKing_Threading._01_HelloThreading.HelloThreading.Caller();
             //CS_ADVANCE.JamieKing_Threading._02_MultipleThreads.MultipleThreads.Caller();
             //CS_ADVANCE.JamieKing_Threading._05_BasicThreadSynchronization.BasicThreadSynchronization.Caller();
-            CS_ADVANCE.JamieKing_Threading._07_DesugarizingLockToMonitorMethodCalls._07_DesugarizingLockToMonitorMethodCalls.Caller();
+            //CS_ADVANCE.JamieKing_Threading._07_DesugarizingLockToMonitorMethodCalls._07_DesugarizingLockToMonitorMethodCalls.Caller();
+            //CS_ADVANCE.JamieKing_Threading._08_DivideAndConquerExamplePart1.DivideAndConquerExamplePart1.Caller();
+            //CS_ADVANCE.JamieKing_Threading._09_DivideAndConquerExamplePart2.DivideAndConquerExamplePart2.Caller();
+            CS_ADVANCE.JamieKing_Threading._13_ProducerConsumerThreadImplementationPart2.ProducerConsumerThreadImplementationPart2.Caller();
             Console.ReadKey();
         }
     }

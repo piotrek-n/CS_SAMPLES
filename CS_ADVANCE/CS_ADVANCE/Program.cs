@@ -38,7 +38,11 @@ namespace CS_ADVANCE
             //CS_ADVANCE.JamieKing_Threading._07_DesugarizingLockToMonitorMethodCalls._07_DesugarizingLockToMonitorMethodCalls.Caller();
             //CS_ADVANCE.JamieKing_Threading._08_DivideAndConquerExamplePart1.DivideAndConquerExamplePart1.Caller();
             //CS_ADVANCE.JamieKing_Threading._09_DivideAndConquerExamplePart2.DivideAndConquerExamplePart2.Caller();
-            CS_ADVANCE.JamieKing_Threading._13_ProducerConsumerThreadImplementationPart2.ProducerConsumerThreadImplementationPart2.Caller();
+            //CS_ADVANCE.JamieKing_Threading._13_ProducerConsumerThreadImplementationPart2.ProducerConsumerThreadImplementationPart2.Caller();
+
+           // MichaelLam
+            CS_ADVANCE.MichaelLam._02_StrategyPattern.StrategyPattern.Caller();
+            CS_ADVANCE.MichaelLam._04_SingletonPattern._04_SingletonPattern.Caller();
             Console.ReadKey();
         }
     }

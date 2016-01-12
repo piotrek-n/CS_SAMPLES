@@ -124,7 +124,19 @@
     <Compile Include="JamieKing_Threading\17_LockingDoesntNecessarilyLockTheObjectItself\LockingDoesntNecessarilyLockTheObjectItself2.cs" />
     <Compile Include="JamieKing_Threading\18_WhatLockReallyMeans\WhatLockReallyMeans.cs" />
     <Compile Include="JamieKing_Threading\19_SynchronizedContainers\SynchronizedContainers.cs" />
+    <Compile Include="JamieKing_Threading\20_LockingCodeIntelligently\LockingCodeIntelligently.cs" />
+    <Compile Include="JamieKing_Threading\21_WhyLockingOnThisIsBad\WhyLockingOnThisIsBad.cs" />
+    <Compile Include="JamieKing_Threading\22_LockingOnThisVsMethodImplOptionsSynchronized\LockingOnThisVsMethodImplOptionsSynchronized.cs" />
     <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
+    <Compile Include="MichaelLam\02_StrategyPattern\StrategyPattern.cs" />
+    <Compile Include="MichaelLam\03_NullableObjectPattern\NullableObjectPattern.cs" />
+    <Compile Include="MichaelLam\04_SingletonPattern\04_SingletonPattern.cs" />
+    <Compile Include="MichaelLam\05_ObserverPattern\05_ObserverPattern.cs" />
+    <Compile Include="MichaelLam\05_ObserverPattern\Observer\ISubsciber.cs" />
+    <Compile Include="MichaelLam\05_ObserverPattern\Observer\Moderator.cs" />
+    <Compile Include="MichaelLam\05_ObserverPattern\Observer\User.cs" />
+    <Compile Include="MichaelLam\05_ObserverPattern\Subject\ISubscriber.cs" />
+    <Compile Include="MichaelLam\05_ObserverPattern\Subject\YouTubeChannel.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
     <Compile Include="Mosh_Events\VideoEncoder.cs" />
@@ -163,6 +175,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MichaelLam\02_StrategyPattern\StrategyPattern.bmp" />
+    <Content Include="MichaelLam\05_ObserverPattern\Observer.bmp" />
     <Content Include="Test.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -683,11 +697,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
-    <Folder Include="JamieKing_Threading\20_\" />
-    <Folder Include="JamieKing_Threading\21_\" />
-    <Folder Include="JamieKing_Threading\22_\" />
-    <Folder Include="JonhKerry\" />
-    <Folder Include="KlausSchmaranz_AspectsOfTheTPL\" />
+    <Folder Include="JonhKerry\NewFolder1\" />
+    <Folder Include="KlausSchmaranz_AspectsOfTheTPL\NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

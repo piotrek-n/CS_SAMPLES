@@ -41,8 +41,10 @@ namespace CS_ADVANCE
             //CS_ADVANCE.JamieKing_Threading._13_ProducerConsumerThreadImplementationPart2.ProducerConsumerThreadImplementationPart2.Caller();
 
            // MichaelLam
-            CS_ADVANCE.MichaelLam._02_StrategyPattern.StrategyPattern.Caller();
-            CS_ADVANCE.MichaelLam._04_SingletonPattern._04_SingletonPattern.Caller();
+            //CS_ADVANCE.MichaelLam._02_StrategyPattern.StrategyPattern.Caller();
+            //CS_ADVANCE.MichaelLam._04_SingletonPattern._04_SingletonPattern.Caller();
+            //CS_ADVANCE.MichaelLam._05_ObserverPattern._05_ObserverPattern.Caller();
+            CS_ADVANCE.MichaelLam._06_IteratorPattern._06_IteratorPattern.Caller();
             Console.ReadKey();
         }
     }

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_ADVANCE.MichaelLam._05_ObserverPattern.Observer
+namespace CS_ADVANCE.MichaelLam_Patterns._10_CommandPattern
 {
-    public interface ISubsciber
+    class _10_CommandPattern
     {
-        void Notify();
     }
 }

@@ -128,15 +128,43 @@
     <Compile Include="JamieKing_Threading\21_WhyLockingOnThisIsBad\WhyLockingOnThisIsBad.cs" />
     <Compile Include="JamieKing_Threading\22_LockingOnThisVsMethodImplOptionsSynchronized\LockingOnThisVsMethodImplOptionsSynchronized.cs" />
     <Compile Include="JamieKing_YieldKeyword\YieldKeyword.cs" />
-    <Compile Include="MichaelLam\02_StrategyPattern\StrategyPattern.cs" />
-    <Compile Include="MichaelLam\03_NullableObjectPattern\NullableObjectPattern.cs" />
-    <Compile Include="MichaelLam\04_SingletonPattern\04_SingletonPattern.cs" />
-    <Compile Include="MichaelLam\05_ObserverPattern\05_ObserverPattern.cs" />
-    <Compile Include="MichaelLam\05_ObserverPattern\Observer\ISubsciber.cs" />
-    <Compile Include="MichaelLam\05_ObserverPattern\Observer\Moderator.cs" />
-    <Compile Include="MichaelLam\05_ObserverPattern\Observer\User.cs" />
-    <Compile Include="MichaelLam\05_ObserverPattern\Subject\ISubscriber.cs" />
-    <Compile Include="MichaelLam\05_ObserverPattern\Subject\YouTubeChannel.cs" />
+    <Compile Include="MichaelLam_Patterns\02_StrategyPattern\StrategyPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\03_NullableObjectPattern\NullableObjectPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\04_SingletonPattern\04_SingletonPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\05_ObserverPattern\05_ObserverPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\05_ObserverPattern\Observer\ISubsciber.cs" />
+    <Compile Include="MichaelLam_Patterns\05_ObserverPattern\Observer\Moderator.cs" />
+    <Compile Include="MichaelLam_Patterns\05_ObserverPattern\Observer\User.cs" />
+    <Compile Include="MichaelLam_Patterns\05_ObserverPattern\Subject\YouTubeChannel.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\06_IteratorPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\Aggregate\Facebook.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\Aggregate\ISocialNetworking.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\Aggregate\Twitter.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\Iterator\FacebookIterator.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\Iterator\IIterator.cs" />
+    <Compile Include="MichaelLam_Patterns\06_IteratorPattern\Iterator\TwitterIterator.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\07_DecoratorPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\Component\IceCream.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\ConcreteComponent\Chocolate.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\ConcreteComponent\Vanilla.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\ConcreteDecorator\Fudge.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\ConcreteDecorator\Sprinkle.cs" />
+    <Compile Include="MichaelLam_Patterns\07_DecoratorPattern\Decorator\Topping.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\08_FacadePattern.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\Concrete\Cheese.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\Concrete\Dough.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\Concrete\Oven.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\Concrete\Sauce.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\Concrete\Topping.cs" />
+    <Compile Include="MichaelLam_Patterns\08_FacadePattern\Facade\PizzaFacade.cs" />
+    <Compile Include="MichaelLam_Patterns\09_AdapterPattern\09_AdapterPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\09_AdapterPattern\Mouse.cs" />
+    <Compile Include="MichaelLam_Patterns\09_AdapterPattern\UsbAdapter.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\10_CommandPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\11_TemplateMethodPattern\11_TemplateMethodPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\12_CompositePattern\12_CompositePattern.cs" />
+    <Compile Include="MichaelLam_Patterns\13_MementoPattern\13_MementoPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\14_PrototypePattern\14_PrototypePattern.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
     <Compile Include="Mosh_Events\VideoEncoder.cs" />
@@ -175,8 +203,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MichaelLam\02_StrategyPattern\StrategyPattern.bmp" />
-    <Content Include="MichaelLam\05_ObserverPattern\Observer.bmp" />
+    <Content Include="MichaelLam_Patterns\02_StrategyPattern\StrategyPattern.bmp" />
+    <Content Include="MichaelLam_Patterns\05_ObserverPattern\Observer.bmp" />
+    <Content Include="MichaelLam_Patterns\06_IteratorPattern\IteratorPattern.BMP" />
+    <Content Include="MichaelLam_Patterns\07_DecoratorPattern\DecoratorPattern.bmp" />
+    <Content Include="MichaelLam_Patterns\09_AdapterPattern\AdapterPattern.bmp" />
+    <Content Include="MichaelLam_Patterns\10_CommandPattern\CommandPattern.bmp" />
     <Content Include="Test.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -699,6 +731,10 @@
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
     <Folder Include="JonhKerry\NewFolder1\" />
     <Folder Include="KlausSchmaranz_AspectsOfTheTPL\NewFolder1\" />
+    <Folder Include="MichaelLam_Patterns\10_CommandPattern\AbstractCommand\" />
+    <Folder Include="MichaelLam_Patterns\10_CommandPattern\ConcreteCommand\" />
+    <Folder Include="MichaelLam_Patterns\10_CommandPattern\Invoker\" />
+    <Folder Include="MichaelLam_Patterns\10_CommandPattern\Reciver\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

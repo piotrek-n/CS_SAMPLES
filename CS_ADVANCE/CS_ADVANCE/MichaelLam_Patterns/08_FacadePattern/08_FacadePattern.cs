@@ -27,7 +27,7 @@ namespace CS_ADVANCE.MichaelLam_Patterns._08_FacadePattern
             oven.Cook(dough);
         }
 
-        public void Client1()
+        public static void Client1()
         {
             Dough dough = new Dough();
             Sauce sauce = new Sauce("Tomatoe");

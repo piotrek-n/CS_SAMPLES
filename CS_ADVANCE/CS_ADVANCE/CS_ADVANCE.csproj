@@ -161,6 +161,14 @@
     <Compile Include="MichaelLam_Patterns\09_AdapterPattern\Mouse.cs" />
     <Compile Include="MichaelLam_Patterns\09_AdapterPattern\UsbAdapter.cs" />
     <Compile Include="MichaelLam_Patterns\10_CommandPattern\10_CommandPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\AbstractCommand\ICommand.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\ConcreteCommand\AirConditionerOff.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\ConcreteCommand\AirConditionerOn.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\ConcreteCommand\LightOff.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\ConcreteCommand\LightOn.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\Invoker\RemoteController.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\Reciver\AirConditioner.cs" />
+    <Compile Include="MichaelLam_Patterns\10_CommandPattern\Reciver\Light.cs" />
     <Compile Include="MichaelLam_Patterns\11_TemplateMethodPattern\11_TemplateMethodPattern.cs" />
     <Compile Include="MichaelLam_Patterns\12_CompositePattern\12_CompositePattern.cs" />
     <Compile Include="MichaelLam_Patterns\13_MementoPattern\13_MementoPattern.cs" />
@@ -209,6 +217,7 @@
     <Content Include="MichaelLam_Patterns\07_DecoratorPattern\DecoratorPattern.bmp" />
     <Content Include="MichaelLam_Patterns\09_AdapterPattern\AdapterPattern.bmp" />
     <Content Include="MichaelLam_Patterns\10_CommandPattern\CommandPattern.bmp" />
+    <Content Include="MichaelLam_Patterns\11_TemplateMethodPattern\TemplateMethodPatter.bmp" />
     <Content Include="Test.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -728,13 +737,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DerekBanas_Patterns\" />
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
     <Folder Include="JonhKerry\NewFolder1\" />
     <Folder Include="KlausSchmaranz_AspectsOfTheTPL\NewFolder1\" />
-    <Folder Include="MichaelLam_Patterns\10_CommandPattern\AbstractCommand\" />
-    <Folder Include="MichaelLam_Patterns\10_CommandPattern\ConcreteCommand\" />
-    <Folder Include="MichaelLam_Patterns\10_CommandPattern\Invoker\" />
-    <Folder Include="MichaelLam_Patterns\10_CommandPattern\Reciver\" />
+    <Folder Include="MateuszWarczak_RownolegleAsynchroniczne_CS5\02_Watki\01_MonteCarlo\" />
+    <Folder Include="MateuszWarczak_RownolegleAsynchroniczne_CS5\03_Zmienne\" />
+    <Folder Include="MateuszWarczak_RownolegleAsynchroniczne_CS5\04_Synchronizacja\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

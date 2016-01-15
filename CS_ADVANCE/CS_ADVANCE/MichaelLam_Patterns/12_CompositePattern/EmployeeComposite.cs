@@ -1,22 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace CS_ADVANCE.MichaelLam_Patterns._12_CompositePattern
 {
-    class EmployeeComposite: EmployeeComponent
+    internal class EmployeeComposite : EmployeeComponent
     {
-        IList<EmployeeComponent> employees;
+        private IList<EmployeeComponent> employees;
+
+        public EmployeeComposite(string name)
+            : base(name)
+        {
+            employees = new List<EmployeeComponent>();
+        }
 
         public void AddEmployee(EmployeeComponent e)
         {
             employees.Add(e);
         }
+
         public void RemoveEmployee(EmployeeComponent e)
         {
             employees.Remove(e);
+        }
+
+        public override void PrintSupervisiorOf(int spacing)
+        {
+            base.PrintSupervisiorOf(spacing);
+
+            foreach (EmployeeComponent e in employees)
+            {
+                e.PrintSupervisiorOf(spacing + 1);
+            }
         }
     }
 }

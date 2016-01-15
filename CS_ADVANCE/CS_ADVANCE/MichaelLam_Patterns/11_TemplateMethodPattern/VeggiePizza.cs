@@ -15,7 +15,7 @@ namespace CS_ADVANCE.MichaelLam_Patterns._11_TemplateMethodPattern
         //    Console.WriteLine("AddVeggieToppings");
         //}
 
-        private override void AddToppings()
+        public override void AddToppings()
         {
             Console.WriteLine("AddVeggieToppings");
         }

@@ -170,8 +170,16 @@
     <Compile Include="MichaelLam_Patterns\10_CommandPattern\Reciver\AirConditioner.cs" />
     <Compile Include="MichaelLam_Patterns\10_CommandPattern\Reciver\Light.cs" />
     <Compile Include="MichaelLam_Patterns\11_TemplateMethodPattern\11_TemplateMethodPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\11_TemplateMethodPattern\Pizza.cs" />
+    <Compile Include="MichaelLam_Patterns\11_TemplateMethodPattern\MeatLoverPizza.cs" />
+    <Compile Include="MichaelLam_Patterns\11_TemplateMethodPattern\VeggiePizza.cs" />
     <Compile Include="MichaelLam_Patterns\12_CompositePattern\12_CompositePattern.cs" />
+    <Compile Include="MichaelLam_Patterns\12_CompositePattern\Employee.cs" />
+    <Compile Include="MichaelLam_Patterns\12_CompositePattern\EmployeeComponent.cs" />
+    <Compile Include="MichaelLam_Patterns\12_CompositePattern\EmployeeComposite.cs" />
     <Compile Include="MichaelLam_Patterns\13_MementoPattern\13_MementoPattern.cs" />
+    <Compile Include="MichaelLam_Patterns\13_MementoPattern\Memento.cs" />
+    <Compile Include="MichaelLam_Patterns\13_MementoPattern\Notepad.cs" />
     <Compile Include="MichaelLam_Patterns\14_PrototypePattern\14_PrototypePattern.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
@@ -218,6 +226,8 @@
     <Content Include="MichaelLam_Patterns\09_AdapterPattern\AdapterPattern.bmp" />
     <Content Include="MichaelLam_Patterns\10_CommandPattern\CommandPattern.bmp" />
     <Content Include="MichaelLam_Patterns\11_TemplateMethodPattern\TemplateMethodPatter.bmp" />
+    <Content Include="MichaelLam_Patterns\12_CompositePattern\Composite.bmp" />
+    <Content Include="MichaelLam_Patterns\13_MementoPattern\MementoPattern.bmp" />
     <Content Include="Test.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -738,6 +748,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DerekBanas_Patterns\" />
+    <Folder Include="Dofactory_Patterns\AbstractFactory\" />
+    <Folder Include="Dofactory_Patterns\Bridge\" />
+    <Folder Include="Dofactory_Patterns\Builder\" />
+    <Folder Include="Dofactory_Patterns\ChainOfResp\" />
+    <Folder Include="Dofactory_Patterns\FactoryMethod\" />
+    <Folder Include="Dofactory_Patterns\Flyweight\" />
+    <Folder Include="Dofactory_Patterns\Interpreter\" />
+    <Folder Include="Dofactory_Patterns\Mediator\" />
+    <Folder Include="Dofactory_Patterns\Memento\" />
+    <Folder Include="Dofactory_Patterns\Proxy\" />
+    <Folder Include="Dofactory_Patterns\State\" />
+    <Folder Include="Dofactory_Patterns\Visitor\" />
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
     <Folder Include="JonhKerry\NewFolder1\" />
     <Folder Include="KlausSchmaranz_AspectsOfTheTPL\NewFolder1\" />

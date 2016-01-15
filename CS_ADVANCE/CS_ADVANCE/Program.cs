@@ -42,9 +42,11 @@ namespace CS_ADVANCE
 
            // MichaelLam
             //CS_ADVANCE.MichaelLam._02_StrategyPattern.StrategyPattern.Caller();
-            //CS_ADVANCE.MichaelLam._04_SingletonPattern._04_SingletonPattern.Caller();
-            //CS_ADVANCE.MichaelLam._05_ObserverPattern._05_ObserverPattern.Caller();
-            CS_ADVANCE.MichaelLam._06_IteratorPattern._06_IteratorPattern.Caller();
+            //CS_ADVANCE.MichaelLam._04_SingletonPattern._04_SingletonPattern.Caller();            
+            //CS_ADVANCE.MichaelLam._06_IteratorPattern._06_IteratorPattern.Caller();
+            //CS_ADVANCE.MichaelLam_Patterns._12_CompositePattern._12_CompositePattern.Caller();
+            CS_ADVANCE.MichaelLam_Patterns._13_MementoPattern._13_MementoPattern.Caller();
+            
             Console.ReadKey();
         }
     }

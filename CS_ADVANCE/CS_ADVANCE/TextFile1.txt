@@ -1,0 +1,10 @@
+﻿Common ASP.NET Design Patterns with Steve Smith (Executive VP of Telerik)
+
+Najbardziej popularne wzorce projektowe
+Singleton
+Proxy
+Abstraction
+Command
+Fabryc
+
+http://tv.ssw.com/2860/common-asp-net-design-patterns-with-steve-smith-executive-vp-of-telerik

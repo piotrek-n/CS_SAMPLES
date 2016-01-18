@@ -87,6 +87,45 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CezaryWalenciuk\IEnumerableAndIEnumerator.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\RealWorld\AbstractFactoryCaller.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\AbstractFactoryCaller.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Client.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Factory\AbstractFactory.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Factory\ConcreteFactory1.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Factory\ConcreteFactory2.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Product\AbstractProductA.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Product\AbstractProductB.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Product\ProductA1.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Product\ProductA2.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Product\ProductB1.cs" />
+    <Compile Include="Dofactory_Patterns\AbstractFactory\Structural\Product\ProductB2.cs" />
+    <Compile Include="Dofactory_Patterns\Bridge\BridgeCaller.cs" />
+    <Compile Include="Dofactory_Patterns\Builder\BuilderCaller.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\FactoryMethodCaller.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\FactoryMethodCaller.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\Document.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\EducationPage.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\ExperiencePage.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\IntroductionPage.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\Page.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\Report.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\Resume.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\RealWorld\SkillsPage.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\ConcreteCreatorA.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\ConcreteCreatorB.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\ConcreteProductA.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\ConcreteProductB.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\Creator.cs" />
+    <Compile Include="Dofactory_Patterns\FactoryMethod\Structural\Product.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\RealWorldCode\IMath.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\RealWorldCode\Math.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\RealWorldCode\MathProxy.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\RealWorldCode\ProxyCaller.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\StructuralCode\Proxy.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\StructuralCode\ProxyCaller.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\StructuralCode\RealSubject.cs" />
+    <Compile Include="Dofactory_Patterns\Proxy\StructuralCode\Subject.cs" />
+    <Compile Include="Dofactory_Patterns\State\StateCaller.cs" />
     <Compile Include="JamieKing_ExpressionTrees\01_Intro\01_Intro.cs" />
     <Compile Include="JamieKing_ExpressionTrees\02_ExpressionTrees\02_ExpressionTrees.cs" />
     <Compile Include="JamieKing_ExpressionTrees\03_PickingApartExpressionTrees _ConstExpression\03_PickingApartExpressionTrees _ConstExpression.cs" />
@@ -181,6 +220,9 @@
     <Compile Include="MichaelLam_Patterns\13_MementoPattern\Memento.cs" />
     <Compile Include="MichaelLam_Patterns\13_MementoPattern\Notepad.cs" />
     <Compile Include="MichaelLam_Patterns\14_PrototypePattern\14_PrototypePattern.cs" />
+    <Compile Include="MichaelLam_Patterns\14_PrototypePattern\FinalFantasy.cs" />
+    <Compile Include="MichaelLam_Patterns\14_PrototypePattern\Halo.cs" />
+    <Compile Include="MichaelLam_Patterns\14_PrototypePattern\XBoxGame.cs" />
     <Compile Include="TUTS_DynamicKeywordAndLateBinding\DynamicKeywordAndLateBinding.cs" />
     <Compile Include="Mosh_Events\Video.cs" />
     <Compile Include="Mosh_Events\VideoEncoder.cs" />
@@ -219,6 +261,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dofactory_Patterns\AbstractFactory\AbstractFactory.bmp" />
+    <Content Include="Dofactory_Patterns\FactoryMethod\FactoryMethod.bmp" />
+    <Content Include="Dofactory_Patterns\Proxy\Image1.bmp" />
     <Content Include="MichaelLam_Patterns\02_StrategyPattern\StrategyPattern.bmp" />
     <Content Include="MichaelLam_Patterns\05_ObserverPattern\Observer.bmp" />
     <Content Include="MichaelLam_Patterns\06_IteratorPattern\IteratorPattern.BMP" />
@@ -228,6 +273,7 @@
     <Content Include="MichaelLam_Patterns\11_TemplateMethodPattern\TemplateMethodPatter.bmp" />
     <Content Include="MichaelLam_Patterns\12_CompositePattern\Composite.bmp" />
     <Content Include="MichaelLam_Patterns\13_MementoPattern\MementoPattern.bmp" />
+    <Content Include="MichaelLam_Patterns\14_PrototypePattern\Prototype.bmp" />
     <Content Include="Test.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -740,6 +786,7 @@
     <Content Include="Lib\_weakrefset.py" />
     <Content Include="Lib\__future__.py" />
     <Content Include="Lib\__phello__.foo.py" />
+    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TUTS_AsyncAndAwait\Form1.resx">
@@ -748,20 +795,26 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DerekBanas_Patterns\" />
-    <Folder Include="Dofactory_Patterns\AbstractFactory\" />
-    <Folder Include="Dofactory_Patterns\Bridge\" />
-    <Folder Include="Dofactory_Patterns\Builder\" />
+    <Folder Include="Dofactory_Patterns\AbstractFactory\RealWorld\Factory\" />
+    <Folder Include="Dofactory_Patterns\AbstractFactory\RealWorld\Product\" />
+    <Folder Include="Dofactory_Patterns\Bridge\RealWorld\" />
+    <Folder Include="Dofactory_Patterns\Bridge\Structural\" />
+    <Folder Include="Dofactory_Patterns\Builder\RealWorld\" />
+    <Folder Include="Dofactory_Patterns\Builder\Structural\" />
     <Folder Include="Dofactory_Patterns\ChainOfResp\" />
-    <Folder Include="Dofactory_Patterns\FactoryMethod\" />
     <Folder Include="Dofactory_Patterns\Flyweight\" />
     <Folder Include="Dofactory_Patterns\Interpreter\" />
     <Folder Include="Dofactory_Patterns\Mediator\" />
     <Folder Include="Dofactory_Patterns\Memento\" />
-    <Folder Include="Dofactory_Patterns\Proxy\" />
-    <Folder Include="Dofactory_Patterns\State\" />
+    <Folder Include="Dofactory_Patterns\State\RealWorld\" />
+    <Folder Include="Dofactory_Patterns\State\Structural\" />
     <Folder Include="Dofactory_Patterns\Visitor\" />
     <Folder Include="JamieKing_DelegatesLambdaExpressionsAndEvents\01_\" />
     <Folder Include="JonhKerry\NewFolder1\" />
+    <Folder Include="JosephAlbahari_Threading\Part_1\" />
+    <Folder Include="JosephAlbahari_Threading\Part_2\" />
+    <Folder Include="JosephAlbahari_Threading\Part_3\" />
+    <Folder Include="JosephAlbahari_Threading\Part_4\" />
     <Folder Include="KlausSchmaranz_AspectsOfTheTPL\NewFolder1\" />
     <Folder Include="MateuszWarczak_RownolegleAsynchroniczne_CS5\02_Watki\01_MonteCarlo\" />
     <Folder Include="MateuszWarczak_RownolegleAsynchroniczne_CS5\03_Zmienne\" />

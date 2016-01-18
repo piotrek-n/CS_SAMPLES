@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_ADVANCE.Dofactory_Patterns.FactoryMethod
+namespace CS_ADVANCE.Dofactory_Patterns.AbstractFactory.RealWorld
 {
-    public static class FactoryMethodCaller
+    public static class AbstractFactoryCaller
     {
         public static void Caller()
         {
